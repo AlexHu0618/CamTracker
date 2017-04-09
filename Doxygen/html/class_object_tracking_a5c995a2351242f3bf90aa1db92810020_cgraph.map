@@ -1,0 +1,5 @@
+<map id="tracking" name="tracking">
+<area shape="rect" id="node2" href="$class_object_tracking.html#a628dd4a9578d82df0753ce3e7df5617d" title="morphOps" alt="" coords="146,5,229,32"/>
+<area shape="rect" id="node3" href="$class_object_tracking.html#a76c861a034b4af30f492454d11a2a664" title="trackFilteredObject" alt="" coords="121,56,253,83"/>
+<area shape="rect" id="node4" href="$class_object_tracking.html#a47ac40c8b0faff1f7d194949c1fac3f5" title="use some of the openCV drawing functions to draw crosshairs on your tracked image! the brief will con..." alt="" coords="301,56,388,83"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="OnTimer4refreshTrigger" name="OnTimer4refreshTrigger">
+<area shape="rect" id="node2" href="$class_object_tracking.html#a5c995a2351242f3bf90aa1db92810020" title="ObjectTracking::tracking" alt="" coords="209,35,372,61"/>
+<area shape="rect" id="node6" href="$class_cam_tracker_frame.html#ae0c5f0211989e9f019e7507ba1c0660f" title="AddItem2Tree" alt="" coords="239,85,342,112"/>
+<area shape="rect" id="node3" href="$class_object_tracking.html#a628dd4a9578d82df0753ce3e7df5617d" title="ObjectTracking::morphOps" alt="" coords="426,5,603,32"/>
+<area shape="rect" id="node4" href="$class_object_tracking.html#a76c861a034b4af30f492454d11a2a664" title="ObjectTracking::trackFiltered\lObject" alt="" coords="420,57,609,98"/>
+<area shape="rect" id="node5" href="$class_object_tracking.html#a47ac40c8b0faff1f7d194949c1fac3f5" title="use some of the openCV drawing functions to draw crosshairs on your tracked image! the brief will con..." alt="" coords="657,64,840,91"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="CamTrackerFrame" name="CamTrackerFrame">
+<area shape="rect" id="node2" href="$class_cam_tracker_frame.html#afef0d5202bf17b355505d832f89ba1f2" title="OnPanelShowImgResize1" alt="" coords="183,5,355,32"/>
+<area shape="rect" id="node3" href="$class_cam_tracker_frame.html#a5d967a8874986fb6b50ca21c20ad11c2" title="OnTreeCtrl1ItemActivated" alt="" coords="184,56,353,83"/>
+<area shape="rect" id="node4" href="$class_cam_tracker_frame.html#a34b31db4c111f12f14061ff77a29b4a1" title="OnTreeCtrl1ItemMenu" alt="" coords="195,107,343,133"/>
+<area shape="rect" id="node5" href="$class_cam_tracker_frame.html#a5699bd00eefba729ccde22198617f2ef" title="OnTimer4refreshTrigger" alt="" coords="191,157,347,184"/>
+<area shape="rect" id="node11" href="$class_cam_tracker_frame.html#ac31b9b2dafd1ca42bbdd572c036c531e" title="OnMenuItem1Selected" alt="" coords="191,208,346,235"/>
+<area shape="rect" id="node6" href="$class_object_tracking.html#a5c995a2351242f3bf90aa1db92810020" title="ObjectTracking::tracking" alt="" coords="403,132,565,159"/>
+<area shape="rect" id="node10" href="$class_cam_tracker_frame.html#ae0c5f0211989e9f019e7507ba1c0660f" title="AddItem2Tree" alt="" coords="433,183,535,209"/>
+<area shape="rect" id="node7" href="$class_object_tracking.html#a628dd4a9578d82df0753ce3e7df5617d" title="ObjectTracking::morphOps" alt="" coords="619,103,797,129"/>
+<area shape="rect" id="node8" href="$class_object_tracking.html#a76c861a034b4af30f492454d11a2a664" title="ObjectTracking::trackFiltered\lObject" alt="" coords="613,154,803,195"/>
+<area shape="rect" id="node9" href="$class_object_tracking.html#a47ac40c8b0faff1f7d194949c1fac3f5" title="use some of the openCV drawing functions to draw crosshairs on your tracked image! the brief will con..." alt="" coords="851,161,1033,188"/>
+</map>

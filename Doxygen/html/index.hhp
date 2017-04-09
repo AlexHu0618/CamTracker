@@ -1,0 +1,93 @@
+[OPTIONS]
+Compiled file=index.chm
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x804 Chinese (PRC)
+Title=My Project
+
+[WINDOWS]
+main="My Project","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+_cam_tracker_app_8cpp_source.html
+_cam_tracker_app_8h_source.html
+_cam_tracker_main_8cpp_source.html
+_cam_tracker_main_8h_source.html
+_object_tracking_8cpp_source.html
+_object_tracking_8h_source.html
+_cam_tracker_app_8cpp.html
+_cam_tracker_app_8h.html
+_cam_tracker_main_8cpp.html
+_cam_tracker_main_8h.html
+_object_tracking_8cpp.html
+_object_tracking_8h.html
+class_cam_tracker_app.html
+class_cam_tracker_app-members.html
+class_cam_tracker_frame.html
+class_cam_tracker_frame-members.html
+class_object_tracking.html
+class_object_tracking-members.html
+graph_legend.html
+index.html
+annotated.html
+classes.html
+hierarchy.html
+inherits.html
+functions.html
+functions_func.html
+functions_vars.html
+files.html
+globals.html
+globals_func.html
+globals_vars.html
+globals_enum.html
+globals_eval.html
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
+nav_h.png
+nav_f.png
+bc_s.png
+doxygen.png
+closed.png
+open.png
+bdwn.png
+sync_on.png
+sync_off.png
+_cam_tracker_app_8cpp__incl.gif
+_cam_tracker_app_8h__incl.gif
+_cam_tracker_app_8h__dep__incl.gif
+_cam_tracker_main_8cpp__incl.gif
+_cam_tracker_main_8h__incl.gif
+_cam_tracker_main_8h__dep__incl.gif
+_object_tracking_8cpp__incl.gif
+_object_tracking_8h__incl.gif
+_object_tracking_8h__dep__incl.gif
+class_cam_tracker_app__inherit__graph.gif
+class_cam_tracker_app__coll__graph.gif
+class_cam_tracker_frame__inherit__graph.gif
+class_cam_tracker_frame__coll__graph.gif
+class_cam_tracker_frame_afb270319b3e83d430617332dc82d2e37_cgraph.gif
+class_cam_tracker_frame_ae0c5f0211989e9f019e7507ba1c0660f_icgraph.gif
+class_cam_tracker_frame_ac31b9b2dafd1ca42bbdd572c036c531e_icgraph.gif
+class_cam_tracker_frame_afef0d5202bf17b355505d832f89ba1f2_icgraph.gif
+class_cam_tracker_frame_a5699bd00eefba729ccde22198617f2ef_cgraph.gif
+class_cam_tracker_frame_a5699bd00eefba729ccde22198617f2ef_icgraph.gif
+class_cam_tracker_frame_a5d967a8874986fb6b50ca21c20ad11c2_icgraph.gif
+class_cam_tracker_frame_a34b31db4c111f12f14061ff77a29b4a1_icgraph.gif
+class_object_tracking__coll__graph.gif
+class_object_tracking_a47ac40c8b0faff1f7d194949c1fac3f5_icgraph.gif
+class_object_tracking_a628dd4a9578d82df0753ce3e7df5617d_icgraph.gif
+class_object_tracking_a76c861a034b4af30f492454d11a2a664_cgraph.gif
+class_object_tracking_a76c861a034b4af30f492454d11a2a664_icgraph.gif
+class_object_tracking_a5c995a2351242f3bf90aa1db92810020_cgraph.gif
+class_object_tracking_a5c995a2351242f3bf90aa1db92810020_icgraph.gif
+graph_legend.gif
+inherit_graph_0.gif
+inherit_graph_1.gif
+inherit_graph_2.gif

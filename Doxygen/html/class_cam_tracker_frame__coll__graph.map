@@ -1,0 +1,3 @@
+<map id="CamTrackerFrame" name="CamTrackerFrame">
+<area shape="rect" id="node3" href="$class_object_tracking.html" title="{ObjectTracking\n|+ shouldAddItem\l&#45; trackObjects\l&#45; useMorphOps\l&#45; cameraFeed\l&#45; HSV\l&#45; threshold\l&#45; x\l&#45; y\l&#45; icap\l&#45; timer4save\l&#45; ID_TIMER2\l|+ ObjectTracking()\l+ ~ObjectTracking()\l+ tracking()\l&#45; drawObject()\l&#45; morphOps()\l&#45; trackFilteredObject()\l}" alt="" coords="105,5,253,303"/>
+</map>

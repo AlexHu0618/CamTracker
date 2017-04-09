@@ -1,0 +1,161 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ae0c5f0211989e9f019e7507ba1c0660f"><param name="Name" value="AddItem2Tree"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#afcd6dd634c1e6fb96537f53d6233e015"><param name="Name" value="cameraFeed"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_app.html"><param name="Name" value="CamTrackerApp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_app_8cpp.html#a56e2ecfd6587a5374cfc1920c504e6c0"><param name="Name" value="CamTrackerApp.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_app.html#aa632f0b3197adeb7777ee5d14a2ac639"><param name="Name" value="CamTrackerApp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html"><param name="Name" value="CamTrackerFrame"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ae0c5f0211989e9f019e7507ba1c0660f"><param name="Name" value="AddItem2Tree"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#afb270319b3e83d430617332dc82d2e37"><param name="Name" value="CamTrackerFrame"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#aa6f4c19359dee8cbe43affec410766ba"><param name="Name" value="dc"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#aec479984dbd2deae87dcf59de1d8db05"><param name="Name" value="ID_MESSAGEDIALOG1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a9eb6c64b006cc8515dc831da083c0501"><param name="Name" value="ID_PANEL1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a0364538dbd64edc814473fe76ad6ce69"><param name="Name" value="ID_TIMER1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a359ab3f90dfca82b5d5f8b53b89dc828"><param name="Name" value="ID_TREECTRL1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a78f43dcbf8da7b175f28b4ca5504ee5f"><param name="Name" value="ImageList1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a837d4bc91095e786e635e8e1e945ac32"><param name="Name" value="Menu1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ad548c7e05e96f817df157d342999f758"><param name="Name" value="MenuItem1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a3d3cd32e27f465d6738a0f607d4427f8"><param name="Name" value="MessageDialog1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ae2fe6672ca61c475bb77ab6ad3126b15"><param name="Name" value="ObjTrack"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ae714fd33ba5f478ba6ecf3ea9f38b8b9"><param name="Name" value="OnAbout"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ac31b9b2dafd1ca42bbdd572c036c531e"><param name="Name" value="OnMenuItem1Selected"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ad2c1a237c991a3a51b166b4d02e3dce4"><param name="Name" value="OnPanelShowImgResize"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#afef0d5202bf17b355505d832f89ba1f2"><param name="Name" value="OnPanelShowImgResize1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a62c5559e9a3d4da08a0d6705baa47b95"><param name="Name" value="OnQuit"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a5699bd00eefba729ccde22198617f2ef"><param name="Name" value="OnTimer4refreshTrigger"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a5d967a8874986fb6b50ca21c20ad11c2"><param name="Name" value="OnTreeCtrl1ItemActivated"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a34b31db4c111f12f14061ff77a29b4a1"><param name="Name" value="OnTreeCtrl1ItemMenu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a07479df489b34e50d58ae29463ae1a7e"><param name="Name" value="PanelShowImg"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a1513660231f1ec15b10205ad71de60b6"><param name="Name" value="Timer4refresh"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ae2345170c5f7e5732ff959328c578add"><param name="Name" value="TreeCtrl1"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a9fe9c974911356d58357172d9557a993"><param name="Name" value="TreeMenu_delete"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#aece8223bb65ba7fedafb007898cfd4b3"><param name="Name" value="~CamTrackerFrame"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html"><param name="Name" value="CamTrackerMain.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#ae726dc52540a76af807a5d22cd632fb0"><param name="Name" value="cap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#a362c9129da4ae789b53d6c2700f0251a"><param name="Name" value="delSavedFile"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#a7d2ea052db5dce8a59d340492495b4ed"><param name="Name" value="FRAME_HEIGHT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#a2a570f918b677f85c111c2f6614d7fa9"><param name="Name" value="FRAME_WIDTH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#ad6438f1e9a52a97d8c47b461a64b837fa7ed9aefb554be1a3e8b51f0d58c60c18"><param name="Name" value="long_f"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#a57fa514928810f629fb5e4cdbfdb34c5"><param name="Name" value="menuItemSelected"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#ad6438f1e9a52a97d8c47b461a64b837faf34cf4880b9e5e417182a04ea274043c"><param name="Name" value="short_f"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#afdd094b13f51c9d282a71d71dd0595ab"><param name="Name" value="wxbuildinfo"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#ae726dc52540a76af807a5d22cd632fb0"><param name="Name" value="cap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#aa6f4c19359dee8cbe43affec410766ba"><param name="Name" value="dc"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#a362c9129da4ae789b53d6c2700f0251a"><param name="Name" value="delSavedFile"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a47ac40c8b0faff1f7d194949c1fac3f5"><param name="Name" value="drawObject"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#ae09ce42f0e397451f8ba8dff41f2984e"><param name="Name" value="FPS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#a7d2ea052db5dce8a59d340492495b4ed"><param name="Name" value="FRAME_HEIGHT"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#a7d2ea052db5dce8a59d340492495b4ed"><param name="Name" value="CamTrackerMain.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a7d2ea052db5dce8a59d340492495b4ed"><param name="Name" value="ObjectTracking.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#a2a570f918b677f85c111c2f6614d7fa9"><param name="Name" value="FRAME_WIDTH"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#a2a570f918b677f85c111c2f6614d7fa9"><param name="Name" value="CamTrackerMain.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a2a570f918b677f85c111c2f6614d7fa9"><param name="Name" value="ObjectTracking.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#ab78f6f6eb9e0a7b7363de7205469e265"><param name="Name" value="H_MAX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a718f9edf6244e85b1195f2d6c0b6fdb5"><param name="Name" value="H_MIN"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a3454addf2af9ab4d338507e9f4fa9ad4"><param name="Name" value="HSV"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a3f6cae5e6c24d4fc125079f5dfab9d6f"><param name="Name" value="icap"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#aec479984dbd2deae87dcf59de1d8db05"><param name="Name" value="ID_MESSAGEDIALOG1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a9eb6c64b006cc8515dc831da083c0501"><param name="Name" value="ID_PANEL1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a0364538dbd64edc814473fe76ad6ce69"><param name="Name" value="ID_TIMER1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a9e91c00f691d832dbca60fcf6d2e803d"><param name="Name" value="ID_TIMER2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a359ab3f90dfca82b5d5f8b53b89dc828"><param name="Name" value="ID_TREECTRL1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a78f43dcbf8da7b175f28b4ca5504ee5f"><param name="Name" value="ImageList1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_app_8cpp.html#a56e2ecfd6587a5374cfc1920c504e6c0"><param name="Name" value="IMPLEMENT_APP"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a2f397743d3368b71836c744aac14ae0d"><param name="Name" value="justObjFound"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#ad6438f1e9a52a97d8c47b461a64b837fa7ed9aefb554be1a3e8b51f0d58c60c18"><param name="Name" value="long_f"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a8a50b2cd532c0c4f222c1df6df253ef2"><param name="Name" value="MAX_NUM_OBJECTS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a7db639fb76f89379628fd5288f238230"><param name="Name" value="MAX_OBJECT_AREA"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a837d4bc91095e786e635e8e1e945ac32"><param name="Name" value="Menu1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ad548c7e05e96f817df157d342999f758"><param name="Name" value="MenuItem1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#a57fa514928810f629fb5e4cdbfdb34c5"><param name="Name" value="menuItemSelected"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a3d3cd32e27f465d6738a0f607d4427f8"><param name="Name" value="MessageDialog1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#afa37064ddc74dd317a926ffc4237a044"><param name="Name" value="MIN_OBJECT_AREA"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a628dd4a9578d82df0753ce3e7df5617d"><param name="Name" value="morphOps"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html"><param name="Name" value="ObjectTracking"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html"><param name="Name" value="ObjectTracking.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#ae09ce42f0e397451f8ba8dff41f2984e"><param name="Name" value="FPS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a7d2ea052db5dce8a59d340492495b4ed"><param name="Name" value="FRAME_HEIGHT"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a2a570f918b677f85c111c2f6614d7fa9"><param name="Name" value="FRAME_WIDTH"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#ab78f6f6eb9e0a7b7363de7205469e265"><param name="Name" value="H_MAX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a718f9edf6244e85b1195f2d6c0b6fdb5"><param name="Name" value="H_MIN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a2f397743d3368b71836c744aac14ae0d"><param name="Name" value="justObjFound"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a8a50b2cd532c0c4f222c1df6df253ef2"><param name="Name" value="MAX_NUM_OBJECTS"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a7db639fb76f89379628fd5288f238230"><param name="Name" value="MAX_OBJECT_AREA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#afa37064ddc74dd317a926ffc4237a044"><param name="Name" value="MIN_OBJECT_AREA"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a04632c156a04ad172a367f2760582928"><param name="Name" value="S_MAX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a80970133e7290ddaa15b6d949fc99420"><param name="Name" value="S_MIN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#ad0bcd55c5d8cae1629e1f300b1a267c4"><param name="Name" value="shouldCreate"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#ae2de9b8731e1c54a74579610837e59c0"><param name="Name" value="V_MAX"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a6238c0ecdac57d88d1f30259c60238cc"><param name="Name" value="V_MIN"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a94c6ae3251f429d492caf2b657ef46c5"><param name="Name" value="writer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html"><param name="Name" value="ObjectTracking"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#afcd6dd634c1e6fb96537f53d6233e015"><param name="Name" value="cameraFeed"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a47ac40c8b0faff1f7d194949c1fac3f5"><param name="Name" value="drawObject"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a3454addf2af9ab4d338507e9f4fa9ad4"><param name="Name" value="HSV"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a3f6cae5e6c24d4fc125079f5dfab9d6f"><param name="Name" value="icap"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a9e91c00f691d832dbca60fcf6d2e803d"><param name="Name" value="ID_TIMER2"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a628dd4a9578d82df0753ce3e7df5617d"><param name="Name" value="morphOps"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a2a0e43ea95332f39759cf80a02eb7d83"><param name="Name" value="ObjectTracking"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a21ad8e7b6fc2b3e83b0d08995fb0d411"><param name="Name" value="shouldAddItem"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a1f283d5549986466d983a02e3d0a8bf4"><param name="Name" value="threshold"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#ad3388b3d9cfff55b3f15728735eb81ae"><param name="Name" value="timer4save"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a76c861a034b4af30f492454d11a2a664"><param name="Name" value="trackFilteredObject"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a5c995a2351242f3bf90aa1db92810020"><param name="Name" value="tracking"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#ac7e05f107bb958b2d14f659012c14ce3"><param name="Name" value="trackObjects"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a789143146c6631df1ff826efd364163a"><param name="Name" value="useMorphOps"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a6150e0515f7202e2fb518f7206ed97dc"><param name="Name" value="x"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a0a2f84ed7838f07779ae24c5a9086d33"><param name="Name" value="y"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a7e859ae4c1f6899a9a628ce9eab66d4a"><param name="Name" value="~ObjectTracking"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ae2fe6672ca61c475bb77ab6ad3126b15"><param name="Name" value="ObjTrack"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ae714fd33ba5f478ba6ecf3ea9f38b8b9"><param name="Name" value="OnAbout"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_app.html#aa632f0b3197adeb7777ee5d14a2ac639"><param name="Name" value="OnInit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ac31b9b2dafd1ca42bbdd572c036c531e"><param name="Name" value="OnMenuItem1Selected"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#afef0d5202bf17b355505d832f89ba1f2"><param name="Name" value="OnPanelShowImgResize1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ad2c1a237c991a3a51b166b4d02e3dce4"><param name="Name" value="OnPanelShowImgResize"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a62c5559e9a3d4da08a0d6705baa47b95"><param name="Name" value="OnQuit"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a5699bd00eefba729ccde22198617f2ef"><param name="Name" value="OnTimer4refreshTrigger"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a5d967a8874986fb6b50ca21c20ad11c2"><param name="Name" value="OnTreeCtrl1ItemActivated"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a34b31db4c111f12f14061ff77a29b4a1"><param name="Name" value="OnTreeCtrl1ItemMenu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a07479df489b34e50d58ae29463ae1a7e"><param name="Name" value="PanelShowImg"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a04632c156a04ad172a367f2760582928"><param name="Name" value="S_MAX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a80970133e7290ddaa15b6d949fc99420"><param name="Name" value="S_MIN"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#ad6438f1e9a52a97d8c47b461a64b837faf34cf4880b9e5e417182a04ea274043c"><param name="Name" value="short_f"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a21ad8e7b6fc2b3e83b0d08995fb0d411"><param name="Name" value="shouldAddItem"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#ad0bcd55c5d8cae1629e1f300b1a267c4"><param name="Name" value="shouldCreate"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a1f283d5549986466d983a02e3d0a8bf4"><param name="Name" value="threshold"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a1513660231f1ec15b10205ad71de60b6"><param name="Name" value="Timer4refresh"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#ad3388b3d9cfff55b3f15728735eb81ae"><param name="Name" value="timer4save"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a76c861a034b4af30f492454d11a2a664"><param name="Name" value="trackFilteredObject"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a5c995a2351242f3bf90aa1db92810020"><param name="Name" value="tracking"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#ac7e05f107bb958b2d14f659012c14ce3"><param name="Name" value="trackObjects"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#ae2345170c5f7e5732ff959328c578add"><param name="Name" value="TreeCtrl1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#a9fe9c974911356d58357172d9557a993"><param name="Name" value="TreeMenu_delete"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a789143146c6631df1ff826efd364163a"><param name="Name" value="useMorphOps"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#ae2de9b8731e1c54a74579610837e59c0"><param name="Name" value="V_MAX"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a6238c0ecdac57d88d1f30259c60238cc"><param name="Name" value="V_MIN"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_object_tracking_8cpp.html#a94c6ae3251f429d492caf2b657ef46c5"><param name="Name" value="writer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="_cam_tracker_main_8cpp.html#afdd094b13f51c9d282a71d71dd0595ab"><param name="Name" value="wxbuildinfo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a6150e0515f7202e2fb518f7206ed97dc"><param name="Name" value="x"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a0a2f84ed7838f07779ae24c5a9086d33"><param name="Name" value="y"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cam_tracker_frame.html#aece8223bb65ba7fedafb007898cfd4b3"><param name="Name" value="~CamTrackerFrame"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_object_tracking.html#a7e859ae4c1f6899a9a628ce9eab66d4a"><param name="Name" value="~ObjectTracking"></OBJECT>
+</UL>
+</BODY>
+</HTML>

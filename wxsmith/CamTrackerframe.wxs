@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="CamTrackerFrame">
+		<title>CamTracker</title>
+		<icon stock_id="wxART_FIND" stock_client="wxART_FRAME_ICON" />
+		<id_arg>0</id_arg>
+		<style>wxDEFAULT_FRAME_STYLE|wxRESIZE_BORDER</style>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+					<object class="sizeritem">
+						<object class="wxPanel" name="ID_PANEL1" variable="PanelShowImg" member="yes">
+							<size>640,480</size>
+							<bg>#000000</bg>
+							<handler function="OnPanelShowImgResize1" entry="EVT_SIZE" />
+						</object>
+						<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+					<object class="sizeritem">
+						<object class="wxTreeCtrl" name="ID_TREECTRL1" variable="TreeCtrl1" member="yes">
+							<image_list>ImageList1</image_list>
+							<tree_items>
+								<item>TreeCtrl1</item>
+								<item>ImageList1</item>
+								<item>0,#000000,0,0,0,1,1,D:\CamTrackerVideo</item>
+							</tree_items>
+							<items_text>
+								<item2>TreeCtrl1</item2>
+								<item2>ImageList1</item2>
+								<item2>0,#000000,0,0,0,1,1,D:\CamTrackerVideo</item2>
+							</items_text>
+							<expand_all>1</expand_all>
+							<size>190,480</size>
+							<handler function="OnTreeCtrl1ItemActivated" entry="EVT_TREE_ITEM_ACTIVATED" />
+							<handler function="OnTreeCtrl1ItemMenu" entry="EVT_TREE_ITEM_MENU" />
+						</object>
+						<flag>wxTOP|wxBOTTOM|wxRIGHT|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+			</object>
+		</object>
+		<object class="wxTimer" name="ID_TIMER1" variable="Timer4refresh" member="yes">
+			<interval>100</interval>
+			<handler function="OnTimer4refreshTrigger" entry="EVT_TIMER" />
+		</object>
+		<object class="wxImageList" variable="ImageList1" member="yes">
+			<image_list>
+				<item>16</item>
+				<item>16</item>
+				<item>static const char *xpm_data[] = {</item>
+				<item>&quot;16 16 23 1&quot;,</item>
+				<item>&quot;5 c Black&quot;,</item>
+				<item>&quot;, c #9BACC2&quot;,</item>
+				<item>&quot;. c #547897&quot;,</item>
+				<item>&quot;2 c #7F99B4&quot;,</item>
+				<item>&quot;X c #D1D9E5&quot;,</item>
+				<item>&quot;1 c #EAEDF3&quot;,</item>
+				<item>&quot;+ c #CAD2DC&quot;,</item>
+				<item>&quot;4 c #718BA7&quot;,</item>
+				<item>&quot;O c #BECAD9&quot;,</item>
+				<item>&quot;$ c #E1E6EE&quot;,</item>
+				<item>&quot;= c #F5F6F7&quot;,</item>
+				<item>&quot;&lt; c #8DA0B9&quot;,</item>
+				<item>&quot;# c #D6DFE7&quot;,</item>
+				<item>&quot;@ c #D2D9E0&quot;,</item>
+				<item>&quot;; c #FAFCFE&quot;,</item>
+				<item>&quot;: c #ADBACE&quot;,</item>
+				<item>&quot;_ c None&quot;,</item>
+				<item>&quot;* c #EEF1F3&quot;,</item>
+				<item>&quot;- c #F8F9FA&quot;,</item>
+				<item>&quot;o c #B3BFD1&quot;,</item>
+				<item>&quot;3 c #7A90AC&quot;,</item>
+				<item>&quot;&gt; c #A2B3C5&quot;,</item>
+				<item>&quot;&amp; c #E5EAF1&quot;,</item>
+				<item>&quot;________________&quot;,</item>
+				<item>&quot;_.....__________&quot;,</item>
+				<item>&quot;_.XXXX._________&quot;,</item>
+				<item>&quot;_.............__&quot;,</item>
+				<item>&quot;_.oO+@#$&amp;*=-;.__&quot;,</item>
+				<item>&quot;_.oO+@#$&amp;*=-;.__&quot;,</item>
+				<item>&quot;_.:oO+X#$&amp;*=-.__&quot;,</item>
+				<item>&quot;_.&gt;:oO+X#$&amp;*=.__&quot;,</item>
+				<item>&quot;_.,&gt;:oO+X#$&amp;*.__&quot;,</item>
+				<item>&quot;_.&lt;,&gt;:oO+X#$1.__&quot;,</item>
+				<item>&quot;_.2&lt;,&gt;:oO+X#$.__&quot;,</item>
+				<item>&quot;_.32&lt;,&gt;:oO+X#.__&quot;,</item>
+				<item>&quot;_.432&lt;,&gt;:oO+X.__&quot;,</item>
+				<item>&quot;_.............__&quot;,</item>
+				<item>&quot;________________&quot;,</item>
+				<item>&quot;5555555555555555&quot;</item>
+				<item>};</item>
+				<item>static const char *xpm_data[] = {</item>
+				<item>&quot;16 16 32 1&quot;,</item>
+				<item>&quot;r c Black&quot;,</item>
+				<item>&quot;7 c #9BACC2&quot;,</item>
+				<item>&quot;e c #547B99&quot;,</item>
+				<item>&quot;6 c #94A5BD&quot;,</item>
+				<item>&quot;. c #376485&quot;,</item>
+				<item>&quot;: c #F1F4F7&quot;,</item>
+				<item>&quot;o c #7F99B4&quot;,</item>
+				<item>&quot;3 c #D1D9E5&quot;,</item>
+				<item>&quot;; c #EAEDF3&quot;,</item>
+				<item>&quot;O c #718BA7&quot;,</item>
+				<item>&quot;q c #65839D&quot;,</item>
+				<item>&quot;= c #DCE2EA&quot;,</item>
+				<item>&quot;&gt; c #F5F6F7&quot;,</item>
+				<item>&quot;8 c #597B9A&quot;,</item>
+				<item>&quot;X c #8DA0B9&quot;,</item>
+				<item>&quot;+ c #467291&quot;,</item>
+				<item>&quot;w c #305F81&quot;,</item>
+				<item>&quot;* c #D6DFE7&quot;,</item>
+				<item>&quot;4 c #6A89A2&quot;,</item>
+				<item>&quot;2 c #A8B6CA&quot;,</item>
+				<item>&quot;- c #E4E9ED&quot;,</item>
+				<item>&quot;_ c None&quot;,</item>
+				<item>&quot;, c #F8F9FA&quot;,</item>
+				<item>&quot;&lt; c #FDFDFE&quot;,</item>
+				<item>&quot;0 c #215579&quot;,</item>
+				<item>&quot;9 c #7F97B0&quot;,</item>
+				<item>&quot;@ c #B3BFD1&quot;,</item>
+				<item>&quot;1 c #7A90AC&quot;,</item>
+				<item>&quot;$ c #C2CBDB&quot;,</item>
+				<item>&quot;5 c #A2B3C5&quot;,</item>
+				<item>&quot;&amp; c #CAD6E1&quot;,</item>
+				<item>&quot;# c #BBC4D6&quot;,</item>
+				<item>&quot;________________&quot;,</item>
+				<item>&quot;.....___________&quot;,</item>
+				<item>&quot;.XXXo.__________&quot;,</item>
+				<item>&quot;.XXXXO........__&quot;,</item>
+				<item>&quot;.XXXXXXXXXXXX.__&quot;,</item>
+				<item>&quot;.XXXXXXXXXXXX.__&quot;,</item>
+				<item>&quot;.X++++++++++++++&quot;,</item>
+				<item>&quot;.X+@#$&amp;*=-;:&gt;,&lt;+&quot;,</item>
+				<item>&quot;.1.2@#$&amp;3=-;:&gt;34&quot;,</item>
+				<item>&quot;..X52@#$&amp;3=-;:4_&quot;,</item>
+				<item>&quot;..X672@#$&amp;3=-;4_&quot;,</item>
+				<item>&quot;.89X672@#$&amp;3=&amp;4_&quot;,</item>
+				<item>&quot;0q19X672@#$&amp;34__&quot;,</item>
+				<item>&quot;w++++++++++++e__&quot;,</item>
+				<item>&quot;________________&quot;,</item>
+				<item>&quot;rrrrrrrrrrrrrrrr&quot;</item>
+				<item>};</item>
+				<item>static const char *xpm_data[] = {</item>
+				<item>&quot;16 16 32 1&quot;,</item>
+				<item>&quot;- c #97C4E7&quot;,</item>
+				<item>&quot;&gt; c #72A8D2&quot;,</item>
+				<item>&quot;2 c #FFFFFF&quot;,</item>
+				<item>&quot;e c #839CB5&quot;,</item>
+				<item>&quot;X c #6B98B8&quot;,</item>
+				<item>&quot;. c #5A89A6&quot;,</item>
+				<item>&quot;@ c #3A749C&quot;,</item>
+				<item>&quot;&lt; c #D1E5F5&quot;,</item>
+				<item>&quot;1 c #67A1CF&quot;,</item>
+				<item>&quot;, c #F1F4F7&quot;,</item>
+				<item>&quot;r c #85A7BC&quot;,</item>
+				<item>&quot;&amp; c #C3DDF1&quot;,</item>
+				<item>&quot;q c #749BB4&quot;,</item>
+				<item>&quot;3 c #7EA6C0&quot;,</item>
+				<item>&quot;: c #5F9BC8&quot;,</item>
+				<item>&quot;O c #538DB3&quot;,</item>
+				<item>&quot;; c #85BBE2&quot;,</item>
+				<item>&quot;$ c #D6DFE7&quot;,</item>
+				<item>&quot;0 c #EFF6FC&quot;,</item>
+				<item>&quot;o c #6591AE&quot;,</item>
+				<item>&quot;5 c #F7FBFD&quot;,</item>
+				<item>&quot;9 c #FAFCFE&quot;,</item>
+				<item>&quot;7 c #DAEAF7&quot;,</item>
+				<item>&quot;8 c #E9F3FA&quot;,</item>
+				<item>&quot;_ c None&quot;,</item>
+				<item>&quot;w c #FDFDFE&quot;,</item>
+				<item>&quot;4 c #E2EFF8&quot;,</item>
+				<item>&quot;# c #8EA9BC&quot;,</item>
+				<item>&quot;* c #B6D5EE&quot;,</item>
+				<item>&quot;= c #A5CCEA&quot;,</item>
+				<item>&quot;6 c #F4F9FD&quot;,</item>
+				<item>&quot;+ c #4581AA&quot;,</item>
+				<item>&quot;__..XooO+@#$____&quot;,</item>
+				<item>&quot;__.&amp;&amp;*=-;:&gt;:,___&quot;,</item>
+				<item>&quot;__.&lt;&lt;&amp;*=-12-X,__&quot;,</item>
+				<item>&quot;__#&amp;&amp;&amp;&amp;*=322-X__&quot;,</item>
+				<item>&quot;__#4;;;;;1oXoO__&quot;,</item>
+				<item>&quot;__#4567&lt;&amp;*=-;O__&quot;,</item>
+				<item>&quot;__#4;;;;;;;;-O__&quot;,</item>
+				<item>&quot;__#466847&lt;&amp;*=o__&quot;,</item>
+				<item>&quot;__#4;;;;;;;;*o__&quot;,</item>
+				<item>&quot;__#49560847&lt;&amp;X__&quot;,</item>
+				<item>&quot;__#4;;;;;;;;&lt;q__&quot;,</item>
+				<item>&quot;__#42w9560847q__&quot;,</item>
+				<item>&quot;__#4;;;;;;;;4e__&quot;,</item>
+				<item>&quot;__#4222w95608r__&quot;,</item>
+				<item>&quot;__##########r#__&quot;,</item>
+				<item>&quot;________________&quot;</item>
+				<item>};</item>
+				<item>static const char *xpm_data[] = {</item>
+				<item>&quot;16 16 32 1&quot;,</item>
+				<item>&quot;- c #97C4E7&quot;,</item>
+				<item>&quot;&gt; c #72A8D2&quot;,</item>
+				<item>&quot;2 c #FFFFFF&quot;,</item>
+				<item>&quot;e c #839CB5&quot;,</item>
+				<item>&quot;X c #6B98B8&quot;,</item>
+				<item>&quot;. c #5A89A6&quot;,</item>
+				<item>&quot;@ c #3A749C&quot;,</item>
+				<item>&quot;&lt; c #D1E5F5&quot;,</item>
+				<item>&quot;1 c #67A1CF&quot;,</item>
+				<item>&quot;, c #F1F4F7&quot;,</item>
+				<item>&quot;r c #85A7BC&quot;,</item>
+				<item>&quot;&amp; c #C3DDF1&quot;,</item>
+				<item>&quot;q c #749BB4&quot;,</item>
+				<item>&quot;3 c #7EA6C0&quot;,</item>
+				<item>&quot;: c #5F9BC8&quot;,</item>
+				<item>&quot;O c #538DB3&quot;,</item>
+				<item>&quot;; c #85BBE2&quot;,</item>
+				<item>&quot;$ c #D6DFE7&quot;,</item>
+				<item>&quot;0 c #EFF6FC&quot;,</item>
+				<item>&quot;o c #6591AE&quot;,</item>
+				<item>&quot;5 c #F7FBFD&quot;,</item>
+				<item>&quot;9 c #FAFCFE&quot;,</item>
+				<item>&quot;7 c #DAEAF7&quot;,</item>
+				<item>&quot;8 c #E9F3FA&quot;,</item>
+				<item>&quot;_ c #010202&quot;,</item>
+				<item>&quot;w c #FDFDFE&quot;,</item>
+				<item>&quot;4 c #E2EFF8&quot;,</item>
+				<item>&quot;# c #8EA9BC&quot;,</item>
+				<item>&quot;* c #B6D5EE&quot;,</item>
+				<item>&quot;= c #A5CCEA&quot;,</item>
+				<item>&quot;6 c #F4F9FD&quot;,</item>
+				<item>&quot;+ c #4581AA&quot;,</item>
+				<item>&quot;__..XooO+@#$____&quot;,</item>
+				<item>&quot;__.&amp;&amp;*=-;:&gt;:,___&quot;,</item>
+				<item>&quot;__.&lt;&lt;&amp;*=-12-X,__&quot;,</item>
+				<item>&quot;__#&amp;&amp;&amp;&amp;*=322-X__&quot;,</item>
+				<item>&quot;__#4;;;;;1oXoO__&quot;,</item>
+				<item>&quot;__#4567&lt;&amp;*=-;O__&quot;,</item>
+				<item>&quot;__#4;;;;;;;;-O__&quot;,</item>
+				<item>&quot;__#466847&lt;&amp;*=o__&quot;,</item>
+				<item>&quot;__#4;;;;;;;;*o__&quot;,</item>
+				<item>&quot;__#49560847&lt;&amp;X__&quot;,</item>
+				<item>&quot;__#4;;;;;;;;&lt;q__&quot;,</item>
+				<item>&quot;__#42w9560847q__&quot;,</item>
+				<item>&quot;__#4;;;;;;;;4e__&quot;,</item>
+				<item>&quot;__#4222w95608r__&quot;,</item>
+				<item>&quot;__##########r#__&quot;,</item>
+				<item>&quot;________________&quot;</item>
+				<item>};</item>
+			</image_list>
+			<image_text>
+				<item2>16</item2>
+				<item2>16</item2>
+				<item2>static const char *xpm_data[] = {</item2>
+				<item2>&quot;16 16 23 1&quot;,</item2>
+				<item2>&quot;5 c Black&quot;,</item2>
+				<item2>&quot;, c #9BACC2&quot;,</item2>
+				<item2>&quot;. c #547897&quot;,</item2>
+				<item2>&quot;2 c #7F99B4&quot;,</item2>
+				<item2>&quot;X c #D1D9E5&quot;,</item2>
+				<item2>&quot;1 c #EAEDF3&quot;,</item2>
+				<item2>&quot;+ c #CAD2DC&quot;,</item2>
+				<item2>&quot;4 c #718BA7&quot;,</item2>
+				<item2>&quot;O c #BECAD9&quot;,</item2>
+				<item2>&quot;$ c #E1E6EE&quot;,</item2>
+				<item2>&quot;= c #F5F6F7&quot;,</item2>
+				<item2>&quot;&lt; c #8DA0B9&quot;,</item2>
+				<item2>&quot;# c #D6DFE7&quot;,</item2>
+				<item2>&quot;@ c #D2D9E0&quot;,</item2>
+				<item2>&quot;; c #FAFCFE&quot;,</item2>
+				<item2>&quot;: c #ADBACE&quot;,</item2>
+				<item2>&quot;_ c None&quot;,</item2>
+				<item2>&quot;* c #EEF1F3&quot;,</item2>
+				<item2>&quot;- c #F8F9FA&quot;,</item2>
+				<item2>&quot;o c #B3BFD1&quot;,</item2>
+				<item2>&quot;3 c #7A90AC&quot;,</item2>
+				<item2>&quot;&gt; c #A2B3C5&quot;,</item2>
+				<item2>&quot;&amp; c #E5EAF1&quot;,</item2>
+				<item2>&quot;________________&quot;,</item2>
+				<item2>&quot;_.....__________&quot;,</item2>
+				<item2>&quot;_.XXXX._________&quot;,</item2>
+				<item2>&quot;_.............__&quot;,</item2>
+				<item2>&quot;_.oO+@#$&amp;*=-;.__&quot;,</item2>
+				<item2>&quot;_.oO+@#$&amp;*=-;.__&quot;,</item2>
+				<item2>&quot;_.:oO+X#$&amp;*=-.__&quot;,</item2>
+				<item2>&quot;_.&gt;:oO+X#$&amp;*=.__&quot;,</item2>
+				<item2>&quot;_.,&gt;:oO+X#$&amp;*.__&quot;,</item2>
+				<item2>&quot;_.&lt;,&gt;:oO+X#$1.__&quot;,</item2>
+				<item2>&quot;_.2&lt;,&gt;:oO+X#$.__&quot;,</item2>
+				<item2>&quot;_.32&lt;,&gt;:oO+X#.__&quot;,</item2>
+				<item2>&quot;_.432&lt;,&gt;:oO+X.__&quot;,</item2>
+				<item2>&quot;_.............__&quot;,</item2>
+				<item2>&quot;________________&quot;,</item2>
+				<item2>&quot;5555555555555555&quot;</item2>
+				<item2>};</item2>
+				<item2>static const char *xpm_data[] = {</item2>
+				<item2>&quot;16 16 32 1&quot;,</item2>
+				<item2>&quot;r c Black&quot;,</item2>
+				<item2>&quot;7 c #9BACC2&quot;,</item2>
+				<item2>&quot;e c #547B99&quot;,</item2>
+				<item2>&quot;6 c #94A5BD&quot;,</item2>
+				<item2>&quot;. c #376485&quot;,</item2>
+				<item2>&quot;: c #F1F4F7&quot;,</item2>
+				<item2>&quot;o c #7F99B4&quot;,</item2>
+				<item2>&quot;3 c #D1D9E5&quot;,</item2>
+				<item2>&quot;; c #EAEDF3&quot;,</item2>
+				<item2>&quot;O c #718BA7&quot;,</item2>
+				<item2>&quot;q c #65839D&quot;,</item2>
+				<item2>&quot;= c #DCE2EA&quot;,</item2>
+				<item2>&quot;&gt; c #F5F6F7&quot;,</item2>
+				<item2>&quot;8 c #597B9A&quot;,</item2>
+				<item2>&quot;X c #8DA0B9&quot;,</item2>
+				<item2>&quot;+ c #467291&quot;,</item2>
+				<item2>&quot;w c #305F81&quot;,</item2>
+				<item2>&quot;* c #D6DFE7&quot;,</item2>
+				<item2>&quot;4 c #6A89A2&quot;,</item2>
+				<item2>&quot;2 c #A8B6CA&quot;,</item2>
+				<item2>&quot;- c #E4E9ED&quot;,</item2>
+				<item2>&quot;_ c None&quot;,</item2>
+				<item2>&quot;, c #F8F9FA&quot;,</item2>
+				<item2>&quot;&lt; c #FDFDFE&quot;,</item2>
+				<item2>&quot;0 c #215579&quot;,</item2>
+				<item2>&quot;9 c #7F97B0&quot;,</item2>
+				<item2>&quot;@ c #B3BFD1&quot;,</item2>
+				<item2>&quot;1 c #7A90AC&quot;,</item2>
+				<item2>&quot;$ c #C2CBDB&quot;,</item2>
+				<item2>&quot;5 c #A2B3C5&quot;,</item2>
+				<item2>&quot;&amp; c #CAD6E1&quot;,</item2>
+				<item2>&quot;# c #BBC4D6&quot;,</item2>
+				<item2>&quot;________________&quot;,</item2>
+				<item2>&quot;.....___________&quot;,</item2>
+				<item2>&quot;.XXXo.__________&quot;,</item2>
+				<item2>&quot;.XXXXO........__&quot;,</item2>
+				<item2>&quot;.XXXXXXXXXXXX.__&quot;,</item2>
+				<item2>&quot;.XXXXXXXXXXXX.__&quot;,</item2>
+				<item2>&quot;.X++++++++++++++&quot;,</item2>
+				<item2>&quot;.X+@#$&amp;*=-;:&gt;,&lt;+&quot;,</item2>
+				<item2>&quot;.1.2@#$&amp;3=-;:&gt;34&quot;,</item2>
+				<item2>&quot;..X52@#$&amp;3=-;:4_&quot;,</item2>
+				<item2>&quot;..X672@#$&amp;3=-;4_&quot;,</item2>
+				<item2>&quot;.89X672@#$&amp;3=&amp;4_&quot;,</item2>
+				<item2>&quot;0q19X672@#$&amp;34__&quot;,</item2>
+				<item2>&quot;w++++++++++++e__&quot;,</item2>
+				<item2>&quot;________________&quot;,</item2>
+				<item2>&quot;rrrrrrrrrrrrrrrr&quot;</item2>
+				<item2>};</item2>
+				<item2>static const char *xpm_data[] = {</item2>
+				<item2>&quot;16 16 32 1&quot;,</item2>
+				<item2>&quot;- c #97C4E7&quot;,</item2>
+				<item2>&quot;&gt; c #72A8D2&quot;,</item2>
+				<item2>&quot;2 c #FFFFFF&quot;,</item2>
+				<item2>&quot;e c #839CB5&quot;,</item2>
+				<item2>&quot;X c #6B98B8&quot;,</item2>
+				<item2>&quot;. c #5A89A6&quot;,</item2>
+				<item2>&quot;@ c #3A749C&quot;,</item2>
+				<item2>&quot;&lt; c #D1E5F5&quot;,</item2>
+				<item2>&quot;1 c #67A1CF&quot;,</item2>
+				<item2>&quot;, c #F1F4F7&quot;,</item2>
+				<item2>&quot;r c #85A7BC&quot;,</item2>
+				<item2>&quot;&amp; c #C3DDF1&quot;,</item2>
+				<item2>&quot;q c #749BB4&quot;,</item2>
+				<item2>&quot;3 c #7EA6C0&quot;,</item2>
+				<item2>&quot;: c #5F9BC8&quot;,</item2>
+				<item2>&quot;O c #538DB3&quot;,</item2>
+				<item2>&quot;; c #85BBE2&quot;,</item2>
+				<item2>&quot;$ c #D6DFE7&quot;,</item2>
+				<item2>&quot;0 c #EFF6FC&quot;,</item2>
+				<item2>&quot;o c #6591AE&quot;,</item2>
+				<item2>&quot;5 c #F7FBFD&quot;,</item2>
+				<item2>&quot;9 c #FAFCFE&quot;,</item2>
+				<item2>&quot;7 c #DAEAF7&quot;,</item2>
+				<item2>&quot;8 c #E9F3FA&quot;,</item2>
+				<item2>&quot;_ c None&quot;,</item2>
+				<item2>&quot;w c #FDFDFE&quot;,</item2>
+				<item2>&quot;4 c #E2EFF8&quot;,</item2>
+				<item2>&quot;# c #8EA9BC&quot;,</item2>
+				<item2>&quot;* c #B6D5EE&quot;,</item2>
+				<item2>&quot;= c #A5CCEA&quot;,</item2>
+				<item2>&quot;6 c #F4F9FD&quot;,</item2>
+				<item2>&quot;+ c #4581AA&quot;,</item2>
+				<item2>&quot;__..XooO+@#$____&quot;,</item2>
+				<item2>&quot;__.&amp;&amp;*=-;:&gt;:,___&quot;,</item2>
+				<item2>&quot;__.&lt;&lt;&amp;*=-12-X,__&quot;,</item2>
+				<item2>&quot;__#&amp;&amp;&amp;&amp;*=322-X__&quot;,</item2>
+				<item2>&quot;__#4;;;;;1oXoO__&quot;,</item2>
+				<item2>&quot;__#4567&lt;&amp;*=-;O__&quot;,</item2>
+				<item2>&quot;__#4;;;;;;;;-O__&quot;,</item2>
+				<item2>&quot;__#466847&lt;&amp;*=o__&quot;,</item2>
+				<item2>&quot;__#4;;;;;;;;*o__&quot;,</item2>
+				<item2>&quot;__#49560847&lt;&amp;X__&quot;,</item2>
+				<item2>&quot;__#4;;;;;;;;&lt;q__&quot;,</item2>
+				<item2>&quot;__#42w9560847q__&quot;,</item2>
+				<item2>&quot;__#4;;;;;;;;4e__&quot;,</item2>
+				<item2>&quot;__#4222w95608r__&quot;,</item2>
+				<item2>&quot;__##########r#__&quot;,</item2>
+				<item2>&quot;________________&quot;</item2>
+				<item2>};</item2>
+				<item2>static const char *xpm_data[] = {</item2>
+				<item2>&quot;16 16 32 1&quot;,</item2>
+				<item2>&quot;- c #97C4E7&quot;,</item2>
+				<item2>&quot;&gt; c #72A8D2&quot;,</item2>
+				<item2>&quot;2 c #FFFFFF&quot;,</item2>
+				<item2>&quot;e c #839CB5&quot;,</item2>
+				<item2>&quot;X c #6B98B8&quot;,</item2>
+				<item2>&quot;. c #5A89A6&quot;,</item2>
+				<item2>&quot;@ c #3A749C&quot;,</item2>
+				<item2>&quot;&lt; c #D1E5F5&quot;,</item2>
+				<item2>&quot;1 c #67A1CF&quot;,</item2>
+				<item2>&quot;, c #F1F4F7&quot;,</item2>
+				<item2>&quot;r c #85A7BC&quot;,</item2>
+				<item2>&quot;&amp; c #C3DDF1&quot;,</item2>
+				<item2>&quot;q c #749BB4&quot;,</item2>
+				<item2>&quot;3 c #7EA6C0&quot;,</item2>
+				<item2>&quot;: c #5F9BC8&quot;,</item2>
+				<item2>&quot;O c #538DB3&quot;,</item2>
+				<item2>&quot;; c #85BBE2&quot;,</item2>
+				<item2>&quot;$ c #D6DFE7&quot;,</item2>
+				<item2>&quot;0 c #EFF6FC&quot;,</item2>
+				<item2>&quot;o c #6591AE&quot;,</item2>
+				<item2>&quot;5 c #F7FBFD&quot;,</item2>
+				<item2>&quot;9 c #FAFCFE&quot;,</item2>
+				<item2>&quot;7 c #DAEAF7&quot;,</item2>
+				<item2>&quot;8 c #E9F3FA&quot;,</item2>
+				<item2>&quot;_ c #010202&quot;,</item2>
+				<item2>&quot;w c #FDFDFE&quot;,</item2>
+				<item2>&quot;4 c #E2EFF8&quot;,</item2>
+				<item2>&quot;# c #8EA9BC&quot;,</item2>
+				<item2>&quot;* c #B6D5EE&quot;,</item2>
+				<item2>&quot;= c #A5CCEA&quot;,</item2>
+				<item2>&quot;6 c #F4F9FD&quot;,</item2>
+				<item2>&quot;+ c #4581AA&quot;,</item2>
+				<item2>&quot;__..XooO+@#$____&quot;,</item2>
+				<item2>&quot;__.&amp;&amp;*=-;:&gt;:,___&quot;,</item2>
+				<item2>&quot;__.&lt;&lt;&amp;*=-12-X,__&quot;,</item2>
+				<item2>&quot;__#&amp;&amp;&amp;&amp;*=322-X__&quot;,</item2>
+				<item2>&quot;__#4;;;;;1oXoO__&quot;,</item2>
+				<item2>&quot;__#4567&lt;&amp;*=-;O__&quot;,</item2>
+				<item2>&quot;__#4;;;;;;;;-O__&quot;,</item2>
+				<item2>&quot;__#466847&lt;&amp;*=o__&quot;,</item2>
+				<item2>&quot;__#4;;;;;;;;*o__&quot;,</item2>
+				<item2>&quot;__#49560847&lt;&amp;X__&quot;,</item2>
+				<item2>&quot;__#4;;;;;;;;&lt;q__&quot;,</item2>
+				<item2>&quot;__#42w9560847q__&quot;,</item2>
+				<item2>&quot;__#4;;;;;;;;4e__&quot;,</item2>
+				<item2>&quot;__#4222w95608r__&quot;,</item2>
+				<item2>&quot;__##########r#__&quot;,</item2>
+				<item2>&quot;________________&quot;</item2>
+				<item2>};</item2>
+			</image_text>
+			<image_count>4</image_count>
+		</object>
+		<object class="wxMenu" variable="Menu1" member="yes">
+			<object class="wxMenuItem" name="TreeMenu_delete" variable="MenuItem1" member="yes">
+				<label>&amp;Delete</label>
+				<handler function="OnMenuItem1Selected" entry="EVT_MENU" />
+			</object>
+		</object>
+		<object class="wxMessageDialog" name="ID_MESSAGEDIALOG1" variable="MessageDialog1" member="yes">
+			<caption>Notice</caption>
+			<message>是否同步删除D盘中保存的相应视频文件？</message>
+			<style>wxYES_NO|wxYES_DEFAULT|wxICON_QUESTION</style>
+		</object>
+	</object>
+</wxsmith>

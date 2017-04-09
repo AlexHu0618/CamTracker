@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CamTracker" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CamTracker" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="D:/wxWidgets-3.0.2/lib/gcc_lib/mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="D:/wxWidgets-3.0.2/lib/gcc_lib/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libwxmsw30u_richtext.a" />
+					<Add library="libwxmsw30u_xrc.a" />
+					<Add library="libwxmsw30u_aui.a" />
+					<Add library="libwxmsw30u_media.a" />
+					<Add library="libwxbase30u_net.a" />
+					<Add library="libwxmsw30u_gl.a" />
+					<Add library="libwxbase30u_xml.a" />
+					<Add library="libwxmsw30u_adv.a" />
+					<Add library="libwxmsw30u_html.a" />
+					<Add library="libwxmsw30u_core.a" />
+					<Add library="libwxbase30u.a" />
+					<Add library="libwxpng.a" />
+					<Add library="libwxjpeg.a" />
+					<Add library="libwxtiff.a" />
+					<Add library="libwxzlib.a" />
+					<Add library="libwxregexu.a" />
+					<Add library="libwxexpat.a" />
+					<Add directory="D:/wxWidgets-3.0.2/lib/gcc_lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CamTracker" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="D:/wxWidgets-3.0.2/lib/gcc_lib/mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="D:/wxWidgets-3.0.2/lib/gcc_lib/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libwxmsw30u_richtext.a" />
+					<Add library="libwxmsw30u_xrc.a" />
+					<Add library="libwxmsw30u_aui.a" />
+					<Add library="libwxmsw30u_media.a" />
+					<Add library="libwxbase30u_net.a" />
+					<Add library="libwxmsw30u_gl.a" />
+					<Add library="libwxbase30u_xml.a" />
+					<Add library="libwxmsw30u_adv.a" />
+					<Add library="libwxmsw30u_html.a" />
+					<Add library="libwxmsw30u_core.a" />
+					<Add library="libwxbase30u.a" />
+					<Add library="libwxpng.a" />
+					<Add library="libwxjpeg.a" />
+					<Add library="libwxtiff.a" />
+					<Add library="libwxzlib.a" />
+					<Add library="libwxregexu.a" />
+					<Add library="libwxexpat.a" />
+					<Add library="D:\opencv\MinGW\install\x86\mingw\lib\libopencv_video2413.dll.a" />
+					<Add directory="D:/wxWidgets-3.0.2/lib/gcc_lib" />
+				</Linker>
+			</Target>
+			<Environment>
+				<Variable name="CV_VERSION" value="2413" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add directory="D:/wxWidgets-3.0.2/include" />
+			<Add directory="$(#cv.include)" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="D:/wxWidgets-3.0.2/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+			<Add library="libkernel32.a" />
+			<Add library="libuser32.a" />
+			<Add library="libgdi32.a" />
+			<Add library="libwinspool.a" />
+			<Add library="libcomdlg32.a" />
+			<Add library="libadvapi32.a" />
+			<Add library="libshell32.a" />
+			<Add library="libole32.a" />
+			<Add library="liboleaut32.a" />
+			<Add library="libuuid.a" />
+			<Add library="libcomctl32.a" />
+			<Add library="libwsock32.a" />
+			<Add library="libodbc32.a" />
+			<Add library="opencv_imgproc$(CV_VERSION).dll" />
+			<Add library="opencv_core$(CV_VERSION).dll" />
+			<Add library="opencv_highgui$(CV_VERSION).dll" />
+			<Add directory="$(#cv.lib)" />
+			<Add directory="$(#cv.bin)" />
+		</Linker>
+		<Unit filename="CamTrackerApp.cpp" />
+		<Unit filename="CamTrackerApp.h" />
+		<Unit filename="CamTrackerMain.cpp" />
+		<Unit filename="CamTrackerMain.h" />
+		<Unit filename="ObjectTracking.cpp" />
+		<Unit filename="ObjectTracking.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wxsmith/CamTrackerframe.wxs" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="CamTrackerApp.cpp" main="CamTrackerFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/CamTrackerframe.wxs" src="CamTrackerMain.cpp" hdr="CamTrackerMain.h" fwddecl="0" i18n="1" name="CamTrackerFrame" language="CPP" />
+				</resources>
+			</wxsmith>
+			<DoxyBlocks>
+				<comment_style block="1" line="1" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,5 @@
+<map id="morphOps" name="morphOps">
+<area shape="rect" id="node2" href="$class_object_tracking.html#a5c995a2351242f3bf90aa1db92810020" title="tracking" alt="" coords="136,13,204,39"/>
+<area shape="rect" id="node3" href="$class_cam_tracker_frame.html#a5699bd00eefba729ccde22198617f2ef" title="CamTrackerFrame::OnTimer4refresh\lTrigger" alt="" coords="252,5,484,47"/>
+<area shape="rect" id="node4" href="$class_cam_tracker_frame.html#afb270319b3e83d430617332dc82d2e37" title="CamTrackerFrame::CamTracker\lFrame" alt="" coords="532,5,739,47"/>
+</map>
